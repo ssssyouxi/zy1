@@ -1,0 +1,134 @@
+.pro_top li{
+	display: inline-block;
+	height: 67px;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	background-color: #f4f4f4;
+	text-align: center;
+	line-height: 67px;
+	font-size: 20px;
+
+}
+.pro_top li:hover{
+	cursor: pointer;
+	background-color: #158fe5;
+	color: #fff;
+	font-weight: bold;
+}
+.pro_prod{
+	margin-top: 30px;
+}
+.tab-nav{
+	padding-left: 0;
+}
+.tab-nav a{
+	display: inline-block;
+	height: 67px;
+	width: 100%;
+}
+.tab-nav a:hover{
+	font-weight: bold;
+	color: #fff;
+}
+.pro_top_img{
+
+		height: auto;
+		padding: 0 !important;
+		border:1px solid #eee;
+}
+.pro_top_intro{
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+		background-color: #f4f4f4;
+		height: 400px;
+}
+.pro_pad{
+	padding-left: 46px;
+	padding-top: 37px;
+	padding-right: 35px;
+}
+.pro_pad p{
+	margin-bottom: 10px;
+}
+.pro_pad .ind_but-int{
+	margin: 0 ;
+	margin-top: 25px;
+}
+.pro_pad p:last-of-type{
+	font-size: 16px;
+	margin-top: 15px;
+}
+.pro_title{
+	font-size: 22px;
+	font-weight: bold;
+	color: #158fe5;
+	margin-bottom: 18px !important;
+}
+.pro_pad button:hover{
+border-color: #158FE5;
+	background-color: #158FE5;
+	color:#fff;
+}
+/*.pro_intro{
+margin-top: 55px;
+}*/
+ .pro_blue_title{
+	background: url("../img/blue.jpg") no-repeat  center bottom;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 24px;
+	color: #158fe5;
+	font-weight: bold;
+	border-bottom: 1px solid #f4f4f4;
+	margin-bottom: 31px;
+}
+.pro_content{
+	line-height: 30px;
+	margin-bottom: 27px;
+}
+.pro_advantage span:first-child{
+	font-size: 36px;
+	color: #158fe5;
+	font-style: italic;
+	display: inline-block;
+	margin-left: 0;
+}
+.pro_advantage span:last-of-type{
+	font-size: 16px;
+	color: #158fe5;
+	display: inline-block;
+	padding-left: 20px;
+}
+/*.pro_advantage .xm4{
+	margin-bottom: 23px;
+}*/
+.pro_theory{
+	margin-top: 12px;
+}
+.pro_data td{
+	vertical-align:middle
+}
+.pro_data p:first-of-type{
+	margin-bottom: 36px;
+}
+@media(min-width: 1200px){
+	.pro_top_img{
+		width: 400px;
+	}
+	.pro_top_intro{
+		width: 470px;
+		
+	}
+}
+@media(max-width: 1199px){
+	.pro_top_intro{
+		height: auto !important;
+		padding-bottom: 10px;
+	}
+}
+@media(max-width: 499px){
+	.pro_pad {
+    padding-left: 15px;
+    padding-right: 15px;
+	}
+}

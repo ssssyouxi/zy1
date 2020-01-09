@@ -1,0 +1,132 @@
+.case_line{
+	margin-bottom: 50px;
+}
+.case_list{
+	width: 100%;
+	height: auto;
+	background-color: #f4f4f4;
+	margin-bottom: 30px;
+}
+.case_list div:first-child{
+	padding: 29px 0px;
+	height: auto;
+}
+.case_list div:nth-child(2){
+	padding-left:0;
+	padding-right:0;
+	padding-top: 30px;
+}
+.case_title,.case_art_title{
+	font-size: 18px;
+	font-weight: bold;
+}
+.case_intro{
+	line-height: 26px;
+	padding-top: 5px;
+	padding-right: 30px;
+}
+.case_prod{
+	display: inline-block;
+	padding-right: 30px;
+}
+.case_prod span{
+	color: #158fe5;
+}
+.case_but{
+	padding-top: 9px;
+}
+.case_but button{
+	margin-right:15px; 
+}
+.case_but button:hover{
+	border-color: #158FE5;
+	background-color: #158FE5;
+	color:#fff;
+}
+.case_art_title{
+	color: #158fe5;
+}
+.case_art_intro{
+	line-height: 30px;
+	padding-top: 5px;
+}
+.case_art_content p{
+	line-height: 30px;
+}
+.case_art_prod img{
+	height: auto;
+	width: 100%;
+}
+.case_art_prod p{
+	text-align: center;
+}
+.case_art_message .line{
+	border: 1px solid #f4f4f4;
+	width: 100%;
+	height: auto;
+	padding:30px 60px 10px;
+}
+
+.case_art_message span{
+	display: inline-block;
+}
+form{
+	margin-top: 38px;
+}
+form *{
+	line-height: 40px;
+	margin-bottom: 20px;
+	height: 40px;
+}
+.case_art_but{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.case_art_but input,.case_art_but input:hover{
+	border-color: #158FE5;
+    background-color: #158FE5;
+    color: #fff;
+    border-radius: 0;
+    width: 100%;
+}
+@media(max-width: 759px){
+	.xl12.xs7.xb8{
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 0;
+	}
+	.case_title{
+		text-align: center;
+	}
+	.case_list{
+		padding-bottom: 15px;
+	}
+	.case_hidden{
+		display: none !important;
+	}
+	.case_art_message .line{
+	
+	padding:25px ;
+}
+	.red_star{
+		padding: 0!important;
+	}
+	.case_art_message .xl12{
+		padding-left: 0;
+	}
+	form *{
+		margin-bottom: 0;
+	}
+	.form_s{
+		margin-bottom: 15px;
+	}
+	.case_intro{
+		padding-right: 0
+	}
+}
+
+/*@media(min-width: 760px){
+	.case_list div:first-child{
+	width: 290px;
+	}
+}*/

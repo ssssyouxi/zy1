@@ -1,0 +1,49 @@
+
+.abo_top p{
+	display: inline-block;
+}
+.abo_top .float-left{
+	font-size: 30px;
+}
+.abo_top .float-right{
+	color: #bcbcbc;
+	margin-bottom: -25px;
+	position: relative;
+	bottom: 55px;
+}
+
+.abo_line{
+	height: 8px;
+	width: 100%;
+	background-color: #f4f4f4;
+	margin-bottom: 60px;
+}
+.abo_p1{
+	color: #444;
+	line-height: 30px;
+	margin-bottom: 29px;
+}
+.abo_shili{
+	margin-top: 48px;
+}
+.abo_shili1{
+	margin-top: 22px;
+}
+.abo_shili_title{
+	color: #158fe5;
+	font-size: 24px;
+	margin-bottom: 28px;
+}
+.abo_shili_content{
+	color: #444;
+	line-height: 34px;
+}
+.abo_shili_content1{
+	color: #444;
+	line-height: 32px;
+}
+.abo_p2{
+	color: #444;
+	margin-top: 16px;
+	margin-bottom: 0px;
+}

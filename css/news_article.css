@@ -1,0 +1,30 @@
+.news_art_title{
+	font-size: 22px;
+	font-weight: bold;
+	color: #158fe5;
+	text-align: center;
+	margin-bottom: 31px;
+}
+.news_line{
+	margin-bottom: 49px;
+}
+.news_art_tip{
+	color: #a0a0a0;
+	text-align: center;
+}
+.news_art_intro{
+	background: url("../img/newsbg.jpg");
+	width: 100%;
+	height: auto;
+	color: #767676;
+	padding: 18px 20px;
+	margin-bottom: 30px;
+	line-height: 30px;
+}
+.news_article p{
+	line-height: 30px;
+}
+.news_article_imp{
+	font-weight: bold;
+	font-size: 16px;
+}
